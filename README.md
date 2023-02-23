@@ -1,4 +1,4 @@
-# dataverse-playground
+# Playground
 
 ## Install Dataverse extension from Google App Store
 
