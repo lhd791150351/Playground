@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@dataverse/runtime-connector': 1.0.10
+  '@dataverse/runtime-connector': 1.0.12
   '@reduxjs/toolkit': 1.9.0
   '@types/react': ^18.0.17
   '@types/react-dom': ^18.0.6
@@ -25,10 +25,10 @@ specifiers:
   vite: ^4.1.1
 
 dependencies:
-  '@dataverse/runtime-connector': 1.0.10
+  '@dataverse/runtime-connector': 1.0.12
   '@reduxjs/toolkit': 1.9.0_k4ae6lp43ej6mezo3ztvx6pykq
   buffer: 6.0.3
-  framer-motion: 9.1.2_biqbaboplfbrettd7655fr4n2y
+  framer-motion: 9.1.6_biqbaboplfbrettd7655fr4n2y
   json-formatter-js: 2.3.4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -298,18 +298,18 @@ packages:
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
 
-  /@dataverse/communicator/1.0.19:
-    resolution: {integrity: sha512-bTEKcERPeKm4QaWT8y3zpeQR7JFLgsAHf5z7hWa/Pyfv8FnZKBl3JQret1r2afg1pU9etmP0JPTAyySB75maeA==}
+  /@dataverse/communicator/1.0.20:
+    resolution: {integrity: sha512-anRqaBbFTDJB4j0CtZDNlp9Txb2tG7NSlIoCvL9mm8TCF1v2sjZ3df1Ao0LslO8A6G6g7JyQ8aCCDz1H8J9geg==}
     dependencies:
       nanoid: 4.0.1
       typescript: 4.9.5
       uuid: 9.0.0
     dev: false
 
-  /@dataverse/runtime-connector/1.0.10:
-    resolution: {integrity: sha512-KXhFZBNQOPkYo+VswcWTbnF2GsWHDidY04gsy7E/iuAg+iZ6dpeSyf8CUpEW8u0IdmxAKHWooo6W4uj/QCXWSA==}
+  /@dataverse/runtime-connector/1.0.12:
+    resolution: {integrity: sha512-TVTNe7icua/12fbGk0R5gVG+3mbD9JgwPcCVK2EjjkXtD+/pbQZt5nRw5TzSyR8GMO0i8jJuMbHPlC7z0IFYUQ==}
     dependencies:
-      '@dataverse/communicator': 1.0.19
+      '@dataverse/communicator': 1.0.20
       ethers: 5.6.9
       typescript: 4.9.5
       uuid: 9.0.0
@@ -1069,7 +1069,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001457
-      electron-to-chromium: 1.4.308
+      electron-to-chromium: 1.4.310
       node-releases: 2.0.10
       update-browserslist-db: 1.0.10_browserslist@4.21.5
     dev: true
@@ -1160,8 +1160,8 @@ packages:
   /detect-node/2.1.0:
     resolution: {integrity: sha512-T0NIuQpnTvFDATNuHN5roPwSBG83rFsuO+MXXH9/3N1eFbn4wcPjttvjMLEPWJ0RGUYgQE7cGgS3tNxbqCGM7g==}
 
-  /electron-to-chromium/1.4.308:
-    resolution: {integrity: sha512-qyTx2aDFjEni4UnRWEME9ubd2Xc9c0zerTUl/ZinvD4QPsF0S7kJTV/Es/lPCTkNX6smyYar+z/n8Cl6pFr8yQ==}
+  /electron-to-chromium/1.4.310:
+    resolution: {integrity: sha512-/xlATgfwkm5uDDwLw5nt/MNEf7c1oazLURMZLy39vOioGYyYzLWIDT8fZMJak6qTiAJ7udFTy7JG7ziyjNutiA==}
     dev: true
 
   /elliptic/6.5.4:
@@ -1257,8 +1257,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /framer-motion/9.1.2_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-8O0eFcV8+7aAHqftFByNLoqMa2j9l3v7fDcm4nETyl+Ufw3r8KURUbn7TnHjA1F3ccadbMJJIVaSf3HyG0ve8A==}
+  /framer-motion/9.1.6_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-3y4p8xGspkEe7eWPdKncg4IvYeUwvHeky9em6dqKu6gnrmo2iBdrChX0s+emhbv00/VuBhdf33rw38J/cxaBrA==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
